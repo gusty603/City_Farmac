@@ -1,8 +1,6 @@
 <?php
 
-$productos = [
-
-    [
+$productos = [ [
         'nombre' => 'Ibuprofeno',
         'marca' => 'Actron',
         'precio' => 4500,
@@ -47,7 +45,27 @@ $productos = [
         'ranking' => 4,
         'imagen' => 'producto2.jpg'
     ],
-
 ];
 
 ?>
+<section>
+
+    <h2>Productos destacados</h2>
+
+    <div class="productos">
+         <?php foreach ($productos as $producto): ?>
+
+            <article class="producto">
+            
+                <h3> <?= $producto['nombre'] ?></h3>
+                <p>Marca: <?= $producto['marca'] ?></p>
+                <p>Precio: $<?= $producto['precio'] ?></p>
+                <p>Ranking: <?= $producto['ranking'] ?>/5</p>
+
+                <a href="<?= BASE_URL ?>/detalle.php"> Ver producto</a>
+            </article>
+
+        <?php endforeach; ?>
+     </div>
+
+</section>
