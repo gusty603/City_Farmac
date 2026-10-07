@@ -56,7 +56,7 @@ $productos = [ [
          <?php foreach ($productos as $producto): ?>
 
             <article class="producto">
-            
+                <img src="<?= BASE_URL ?>/assets/img/<?= $producto['imagen'] ?>" alt="<?= $producto['nombre'] ?>">
                 <h3> <?= $producto['nombre'] ?></h3>
                 <p>Marca: <?= $producto['marca'] ?></p>
                 <p>Precio: $<?= $producto['precio'] ?></p>
