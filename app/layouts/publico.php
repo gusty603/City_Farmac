@@ -1,3 +1,11 @@
+<?php 
+$vista = $vista ?? null;
+
+if($vista === null){
+    die('No se definio una vista');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,10 +21,10 @@
 
     <main class="contenedor">
 
-
+<?php require $vista; ?>
 
     </main>
 
-    <?php require __DIR__ . '/../partials/footer.php'; ?>
+    <?php require __DIR__ . '/../vistasReutilizables/footer.php'; ?>
 </body>
 </html>
