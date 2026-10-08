@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 header{
     background-color: rgb(12, 116, 227);
     text-align: center;
+    overflow-x: hidden;
 }
 
 h1{
@@ -38,4 +39,32 @@ a{
     font-size: 25px;
     font-weight: 500;
     color:white;
+}
+footer{
+    background-color:rgb(12,116,227) ;
+display: grid;
+grid-template-columns: 3fr 1fr 1fr 1fr;
+justify-content: space-between;
+place-items: center;
+h3{
+color: white;
+    margin-bottom: 10px;
+}
+p{
+    width: 380px;
+    color: rgb(5, 31, 103);
+    text-align: center;
+}
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+footer .contenedorFooter{
+    display: flex;
+    gap: 10px;
+}
+footer ul li{
+    color: rgb(5,31,103);
 }
