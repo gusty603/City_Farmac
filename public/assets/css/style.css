@@ -7,11 +7,21 @@ header{
     background-color: rgb(12, 116, 227);
     text-align: center;
 }
+
 h1{
     color: white;
     font-size: 50px;
+    animation: agrandar 1.5s infinite alternate;
 }
-p{
+@keyframes agrandar {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+#parrafoHeader{
     color:blue;
     font-size: 25px;
     font-weight: 600;
