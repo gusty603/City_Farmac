@@ -12,7 +12,7 @@ $productos = [ [
         'marca' => 'Dermaglós',
         'precio' => 15000,
         'ranking' => 2,
-        'imagen' => 'producto1.jpg'
+        'imagen' => 'producto4.jpg'
     ],
 
     [
@@ -20,14 +20,14 @@ $productos = [ [
         'marca' => 'Pantene',
         'precio' => 7500,
         'ranking' => 3,
-        'imagen' => 'producto2.jpg'
+        'imagen' => 'producto6.jpg'
     ],
      [
         'nombre' => 'Paracetamol',
         'marca' => 'Bayer',
         'precio' => 3200,
         'ranking' => 4,
-        'imagen' => 'producto2.jpg'
+        'imagen' => 'producto3.jpg'
     ],
 
     [
@@ -35,7 +35,7 @@ $productos = [ [
         'marca' => 'Redoxon',
         'precio' => 6000,
         'ranking' => 5,
-        'imagen' => 'producto1.jpg'
+        'imagen' => 'producto2.webp'
     ],
 
     [
@@ -43,7 +43,7 @@ $productos = [ [
         'marca' => 'Farmacity',
         'precio' => 2500,
         'ranking' => 4,
-        'imagen' => 'producto2.jpg'
+        'imagen' => 'producto5.webp'
     ],
 ];
 
