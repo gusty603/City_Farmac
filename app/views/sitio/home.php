@@ -20,7 +20,7 @@ $productos = [ [
         'marca' => 'Pantene',
         'precio' => 7500,
         'ranking' => 3,
-        'imagen' => 'producto6.jpg'
+        'imagen' => 'producto6.webp'
     ],
      [
         'nombre' => 'Paracetamol',
