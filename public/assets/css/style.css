@@ -27,3 +27,15 @@ h1{
     font-weight: 600;
     padding-bottom: 7px;
 }
+.navPublico{
+    display: flex;
+    background-color: rgb(16, 58, 243);
+    justify-content: center;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color:white;
+}
