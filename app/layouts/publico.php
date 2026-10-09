@@ -14,6 +14,9 @@ if($vista === null){
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <title><?= $titulo ?? 'City Farmac' ?></title>
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
+    <?php if(isset($homeCSS)): ?>
+     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $homeCSS ?>">
+     <?php endif;?>   
 </head>
 <body>
     <?php require __DIR__ . '/../vistasReutilizables/header.php'; ?>

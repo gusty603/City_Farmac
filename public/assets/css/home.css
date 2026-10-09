@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.productos{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.producto{
+    width: 250px;
+    
+    text-align: center;
+    img{
+        width: 100%;
+
+    }
+    a{
+        color:blue;
+    }
+}
