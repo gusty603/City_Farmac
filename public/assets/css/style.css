@@ -5,14 +5,14 @@
 }
 header{
     background-color: rgb(12, 116, 227);
-    text-align: center;
     overflow-x: hidden;
 }
-
-h1{
-    color: white;
-    font-size: 50px;
-    animation: agrandar 1.5s infinite alternate;
+header #logo{
+    position: absolute;
+    margin: 15px;
+    width: 60px;
+    height: 60px;
+ animation: agrandar 1.5s infinite alternate;
 }
 @keyframes agrandar {
     from{
@@ -22,6 +22,14 @@ h1{
         transform: scale(1.2);
     }
 }
+header div{
+text-align: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+
 #parrafoHeader{
     color:blue;
     font-size: 25px;
