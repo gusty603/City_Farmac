@@ -3,36 +3,30 @@
     <h2>Listado de productos</h2>
 
     <aside>
-
-        <h3>Categorías</h3>
-
-        <ul>
-
-            <li>
+       <h3>Categorías</h3>
+          <ul>
+             <li>
                 Medicamentos
-
-                <ul>
+              <ul>
                     <li>Analgésicos</li>
                     <li>Antigripales</li>
-                </ul>
+              </ul>
 
-            </li>
+             </li>
 
-            <li>
+             <li>
                 Cuidado personal
-
-                <ul>
+              <ul>
                     <li>Higiene</li>
                     <li>Cuidado de la piel</li>
-                </ul>
+              </ul>
 
             </li>
-
-        </ul>
+          </ul>
 
     </aside>
      <form>
-
+<div class="contenedor-Filtros"> 
         <label for="marca">
             Marca
         </label>
@@ -53,7 +47,8 @@
 
         </select>
 
-
+</div>
+<div class="contenedor-Filtros">
         <label for="orden">
             Orden
         </label>
@@ -77,7 +72,7 @@
             </option>
 
         </select>
-
+</div>
     </form>
 
 </section>
