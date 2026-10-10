@@ -6,7 +6,7 @@ h2{
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    place-items: center;
     margin: 0 auto;
     overflow-x: hidden;
 }
