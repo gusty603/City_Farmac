@@ -34,7 +34,11 @@ if($vista === null){
 
      <?php if(isset($loginCSS)): ?>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $loginCSS ?>">
-     <?php endif;?>  
+     <?php endif;?> 
+     
+     <?php if(isset($registroCSS)): ?>
+     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $registroCSS ?>">
+     <?php endif;?> 
 </head>
 <body>
     <?php require __DIR__ . '/../vistasReutilizables/header.php'; ?>
