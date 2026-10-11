@@ -24,4 +24,14 @@
       </form>
 
 </section>
+<section>
+ 
+   <h3>Comentarios</h3>
+      <article>
+        <p> Muy buen producto. </p>
+        <p> Valoración: 5/5 </p>
+      </article>
+</section>
+
+
 
