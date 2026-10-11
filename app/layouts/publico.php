@@ -34,7 +34,7 @@ if($vista === null){
     <?php require __DIR__ . '/../vistasReutilizables/header.php'; ?>
     <?php require __DIR__ . '/../vistasReutilizables/navPublico.php'; ?>
 
-    <main class="contenedor">
+    <main>
 
 <?php require $vista; ?>
 
