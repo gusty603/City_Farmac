@@ -1,4 +1,4 @@
-<section>
+<section id="contenedor-Producto">
     <img src="<?= BASE_URL ?>/assets/img/producto1.jpg">
     <div>
        <h2>Ibuprofeno 400mg</h2>
@@ -32,6 +32,10 @@
       <article>
         <p> Muy buen producto. </p>
         <span>⭐⭐⭐ </span>
+      </article>
+      <article>
+        <p> Excelente!!!!!!!. </p>
+        <span>⭐⭐⭐⭐ </span>
       </article>
 </section>
 
