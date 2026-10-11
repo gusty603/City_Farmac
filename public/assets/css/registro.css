@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+}
+button{
+    width: 90px;
+    height: 25px;
+    margin-left: 70%;
+    color: white;
+    background-color: rgb(9,176,131);
+    border: none;
+    border-radius: 12px;
+
+}
