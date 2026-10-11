@@ -18,4 +18,32 @@
         </select>
  
     </form>
+    
+    <table>
+        <thead>
+           <tr>
+              <th>Producto</th>
+              <th>Categoría</th>
+              <th>Precio</th>
+              <th>Acciones</th>
+           </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ibuprofeno</td>
+                <td>Medicamentos</td>
+                <td>$4500</td>
+
+                <td>
+                    <button>Modificar</button>
+                    <button>Inactivar</button>
+                    <button>Ver comentarios</button>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
 </section>
