@@ -9,24 +9,24 @@
          <p>Ranking: 1/5</p>
     </div>
 </section>
-<section>
+<section id="contenedor-Formulario">
 
     <h3>Dejar comentario</h3>
        <form>
-          <label for="email">Email</label>
+          <label for="email">Email :</label>
            <input type="email" id="email" name="email" required >
 
-          <label for="comentario"> Comentario </label>
+          <label for="comentario"> Comentario :</label>
           <textarea id="comentario" name="comentario" required ></textarea>
 
-         <label for="valoracion"> Valoración </label>
+         <label for="valoracion"> Valoración :</label>
          <input type="number" id="valoracion"  name="valoracion"  min="1"  max="5" required >
 
-         <button type="submit"> Enviar comentario</button>
+         <button type="submit"> Enviar</button>
       </form>
 
 </section>
-<section>
+<section id="contenedor-Comentario">
  
    <h3>Comentarios</h3>
       <article>

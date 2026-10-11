@@ -1,0 +1,41 @@
+#contenedor-Producto{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+}
+h3{
+       margin-left: 20px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+}
+section form{
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    padding: 5px;
+}
+textarea{
+    height: 50px;
+    padding: 5px;
+}
+button{
+    width: 80px;
+    height: 25px;
+    margin-left: 73%;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(9,176,131 );
+}
+#contenedor-Comentario{
+    margin-bottom: 20px;
+}
+article{
+    margin-left: 20px;
+}
