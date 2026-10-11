@@ -13,7 +13,9 @@ if($vista === null){
     <meta charset="UTF-8">
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <title><?= $titulo ?? 'City Farmac' ?></title>
+
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
+
     <?php if(isset($homeCSS)): ?>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $homeCSS ?>">
      <?php endif;?> 
@@ -28,6 +30,10 @@ if($vista === null){
 
      <?php if(isset($detalleCSS)): ?>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $detalleCSS ?>">
+     <?php endif;?> 
+
+     <?php if(isset($loginCSS)): ?>
+     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $loginCSS ?>">
      <?php endif;?>  
 </head>
 <body>
