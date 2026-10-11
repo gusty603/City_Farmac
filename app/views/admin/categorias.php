@@ -24,5 +24,28 @@
 
     </table>
 
+ <h3>Nueva categoría</h3>
+       <form>
+          <label for="nombre"> Nombre </label>
+          <input  type="text" id="nombre" name="nombre" required>
+
+          <label for="padre"> Categoría padre </label>
+          <select id="padre">
+             <option >
+                Sin categoría principal
+            </option>
+
+            <option>
+                Medicamentos
+            </option>
+            <option >
+                Cuidado Personal
+            </option>
+
+          </select>
+
+         <button type="submit">  Guardar </button>
+
+       </form>
 
 </section>
