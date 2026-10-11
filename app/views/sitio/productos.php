@@ -1,30 +1,20 @@
-<section>
-
-    <h2>Listado de productos</h2>
-
+ <h2>Listado de productos</h2>
+<div id="contenedor">
+<div id="contenedor-Categoria">
     <aside>
        <h3>Categorías</h3>
-          <ul>
-             <li>
-                Medicamentos
+                <h4>Medicamentos</h4>
               <ul>
                     <li>Analgésicos</li>
                     <li>Antigripales</li>
               </ul>
-
-             </li>
-
-             <li>
-                Cuidado personal
+                <h4>Cuidado Personal</h4>
               <ul>
                     <li>Higiene</li>
                     <li>Cuidado de la piel</li>
-              </ul>
-
-            </li>
-          </ul>
-
+             </ul>
     </aside>
+
      <form>
 <div class="contenedor-Filtros"> 
         <label for="marca">
@@ -74,5 +64,8 @@
         </select>
 </div>
     </form>
-
+</div>
+<section>
+    "NO HAY PRODUCTOS PARA MOSTRAR"
 </section>
+</div>
