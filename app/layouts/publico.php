@@ -17,9 +17,13 @@ if($vista === null){
     <?php if(isset($homeCSS)): ?>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $homeCSS ?>">
      <?php endif;?> 
-     
+
       <?php if(isset($productosCSS)): ?>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $productosCSS ?>">
+     <?php endif;?>  
+
+      <?php if(isset($contactoCSS)): ?>
+     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $contactoCSS ?>">
      <?php endif;?>  
 </head>
 <body>
