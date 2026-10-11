@@ -25,6 +25,10 @@ if($vista === null){
       <?php if(isset($contactoCSS)): ?>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $contactoCSS ?>">
      <?php endif;?>  
+
+     <?php if(isset($detalleCSS)): ?>
+     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/<?= $detalleCSS ?>">
+     <?php endif;?>  
 </head>
 <body>
     <?php require __DIR__ . '/../vistasReutilizables/header.php'; ?>
