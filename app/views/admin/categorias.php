@@ -29,8 +29,8 @@
           <label for="nombre"> Nombre </label>
           <input  type="text" id="nombre" name="nombre" required>
 
-          <label for="padre"> Categoría padre </label>
-          <select id="padre">
+          <label for="categoriaPrinciapl"> Categoría principal </label>
+          <select id="categoriaPrincipal">
              <option >
                 Sin categoría principal
             </option>
