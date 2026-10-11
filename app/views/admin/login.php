@@ -1,13 +1,13 @@
 <section>
     <h2>Iniciar sesión</h2>
     <form action="">
-        <label for="email">Email</label>
+        <label for="email">Email :</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="password">Contraseña</label>
+        <label for="password">Contraseña :</label>
         <input type="password" id="password" name="password" minlength="6" required>
         <button type="submit">Ingresar</button>
-
+<span>¿No estás registrado? Crea tu cuenta aqui.</span>
     </form>
     <a href="<?= BASE_URL ?>/admin/registro.php">Registrarse</a>
 </section>
