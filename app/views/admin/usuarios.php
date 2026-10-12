@@ -19,6 +19,30 @@
         </tr>
 
     </table>
+<h3>Nuevo usuario</h3>
+
+    <form>
+
+        <label for="nombreUsuario">Nombre :</label>
+        <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+
+        <label for="emailUsuario">Email :</label>
+        <input type="email" id="emailUsuario" name="emailUsuario" required>
+
+        <label for="passwordUsuario">Contraseña :</label>
+        <input type="password" id="passwordUsuario" name="passwordUsuario" required>
+
+        <label for="perfilUsuario">Perfil :</label>
+        <select id="perfilUsuario" required >
+
+            <option>Administrador</option>
+
+            <option>Editor</option>
+
+        </select>
+       <button type="submit"> Guardar </button>
+
+    </form>
 
 
 </section>
