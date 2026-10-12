@@ -14,6 +14,14 @@ if($vista === null){
     <title>Document</title>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/style.css">
 
+     <?php if (isset($indexCSS)): ?>
+
+    <link
+        rel="stylesheet"
+        href="<?= BASE_URL ?>/assets/css/admin/<?= $indexCSS ?>"
+    >
+
+<?php endif; ?>
 </head>
 <body>
    <header class="admin-header">
