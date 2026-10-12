@@ -10,9 +10,9 @@ if($vista === null){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?=  BASE_URL ?>/assets/css/style.css">
-    <title>Document</title>
-     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/style.css">
+    <link rel="stylesheet" href="<?=  BASE_URL ?>/assets/css/admin/style.css">
+    <title><?= $titulo ?? 'City Farmac' ?></title>
+     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
 
      <?php if (isset($indexCSS)): ?>
 
@@ -27,7 +27,7 @@ if($vista === null){
    <header class="admin-header">
       <h1>Administración City Farmac</h1>
   </header>
- <?php require __DIR__ . '/../vistasReutilizables/navAdmin.php'; ?>
+ 
     <main class="contenedor">
 <?php require $vista; ?>
     </main>

@@ -1,7 +1,7 @@
 <section>
     <h2>Bienvenido al panel</h2>
        <p>  Seleccione una sección.</p>
-       <ul>
+       <ul id="contenedorSeccion">
          <li>
             <a href="<?= BASE_URL ?>/admin/productos.php"> Productos</a>
         </li>

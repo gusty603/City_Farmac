@@ -6,15 +6,15 @@ p{
     margin-top: 20px;
     font-size: 20px;
 }
-li{
-    list-style: none;
-}
-a{
-    color: rgb(9,167,131);
-}
-ul{
-    
+
+#contenedorSeccion{
     margin: 10px auto;
     background-color:#ededed;
     text-align: center;
+    li{
+        list-style: none;
+    }
 }
+ a{
+        color: rgb( 9,176,131);
+    }

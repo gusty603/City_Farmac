@@ -1,18 +1,11 @@
-*{
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-main{
-    width: 80%;
-    margin: 0 auto;
-    flex: 1;
-}
 h1{
     text-align: center;
 }
+.nav-admin{
+    background-color:rgb(16,58,243 );
+    text-align: center;
+
+a{
+    color: white;
+    margin: 0 10px;
+}}
