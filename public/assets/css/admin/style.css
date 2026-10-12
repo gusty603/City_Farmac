@@ -54,3 +54,15 @@ input{
     margin: 0 auto;
 margin-bottom: 10px;
 }
+button{
+    width: 120px;
+    height: 25px;
+    background-color: rgb(9,176,131 );
+    border: none;
+    border-radius: 10px;
+
+}
+#botInactivar{
+    background-color: rgb(122, 6, 6);
+    color:white;
+}

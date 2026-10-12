@@ -10,7 +10,7 @@
             <td>Bayer</td>
             <td>
                 <button>Modificar</button>
-                <button>Inactivar</button>
+                <button id="botInactivar">Inactivar</button>
             </td>
 
         </tr>
@@ -24,7 +24,7 @@
         <label for="nombreMarca"> Nombre </label>
         <input type="text" id="nombreMarca" name="nombreMarca"  required>
 
-        <button type="submit"> Guardar </button>
+        <button id='botGuardar'type="submit"> Guardar </button>
 
     </form>
 
