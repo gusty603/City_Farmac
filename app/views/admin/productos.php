@@ -1,24 +1,5 @@
 <section>
     <h2>Productos</h2>
-    <form action="">
-
-       <label for="categoria"> Categoría</label>
-            <select id="categoria">
-            <option>Todas</option>
-            <option>Medicamentos</option>
-            <option>Cuidado Personal</option>
-        </select>
-
-        <label for="subcategoria"> Subcategoría </label>
-
-        <select id="subcategoria">
-             <option>Todas</option>
-             <option>Analgésicos</option>
-             <option>Antigripales</option>
-        </select>
- 
-    </form>
-
     <table>
         <thead>
            <tr>
@@ -38,19 +19,33 @@
 
                 <td>
                     <button>Modificar</button>
-                    <button>Inactivar</button>
+                    <button id="botInactivar">Inactivar</button>
                     <button>Ver comentarios</button>
                 </td>
             </tr>
         </tbody>
 
     </table>
+    <h3>Alta de producto</h3>
 
+    <form action="">
+
+       <label for="categoria"> Categoría</label>
+            <select id="categoria">
+            <option>Medicamentos</option>
+            <option>Cuidado Personal</option>
+        </select>
+
+        <label for="subcategoria"> Subcategoría </label>
+
+        <select id="subcategoria">
+             <option>Analgésicos</option>
+             <option>Antigripales</option>
+        </select>
+ 
+    </form>
 </section>
 <section>
-
-    <h3>Alta / edición de producto</h3>
-
     <form>
         <label for="nombre"> Nombre </label>
           <input type="text" id="nombre" name="nombre" required>
@@ -86,7 +81,7 @@
 
         <label> <input type="checkbox"> Producto destacado </label>
 
-        <button type="submit"> Guardar  </button>
+        <button id='botGuardar' type="submit"> Guardar  </button>
 
     </form>
 

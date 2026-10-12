@@ -14,14 +14,13 @@ if($vista === null){
     <title><?= $titulo ?? 'City Farmac' ?></title>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
 
-     <?php if (isset($indexCSS)): ?>
+    <?php if (isset($indexCSS)): ?>
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/<?= $indexCSS ?>" >
+    <?php endif; ?>
 
-    <link
-        rel="stylesheet"
-        href="<?= BASE_URL ?>/assets/css/admin/<?= $indexCSS ?>"
-    >
-
-<?php endif; ?>
+    <?php if (isset($productosCSS)): ?>
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/<?= $productosCSS ?>" >
+    <?php endif; ?>
 </head>
 <body>
    <header class="admin-header">

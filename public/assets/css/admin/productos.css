@@ -1,0 +1,54 @@
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+form{
+    width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+#botGuardar{
+    width: 120px;
+    height: 25px;
+    background-color: rgb(9,176,131 );
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+margin-bottom: 10px;
+}
+button{
+    width: 120px;
+    height: 25px;
+    background-color: rgb(9,176,131 );
+    border: none;
+    border-radius: 10px;
+
+}
+#botInactivar{
+    background-color: rgb(122, 6, 6);
+    color:white;
+}
