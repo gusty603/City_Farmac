@@ -13,14 +13,13 @@ if($vista === null){
     <link rel="stylesheet" href="<?=  BASE_URL ?>/assets/css/style.css">
     <title>Document</title>
      <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/style.css">
-     
+
 </head>
 <body>
    <header class="admin-header">
-
-        <h1>Administración City Farmac</h1>
-
-    </header>
+      <h1>Administración City Farmac</h1>
+  </header>
+ <?php require __DIR__ . '/../vistasReutilizables/navAdmin.php'; ?>
     <main class="contenedor">
 <?php require $vista; ?>
     </main>
