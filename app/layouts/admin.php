@@ -18,13 +18,6 @@ if($vista === null){
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/<?= $indexCSS ?>" >
     <?php endif; ?>
 
-    <?php if (isset($productosCSS)): ?>
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/<?= $productosCSS ?>" >
-    <?php endif; ?>
-
-    <?php if (isset($categoriasCSS)): ?>
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/admin/<?= $categoriasCSS ?>" >
-    <?php endif; ?>
 </head>
 <body>
    <header class="admin-header">
