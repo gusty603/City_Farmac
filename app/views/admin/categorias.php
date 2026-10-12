@@ -44,7 +44,7 @@
 
           </select>
 
-         <button type="submit">  Guardar </button>
+         <button id="botGuardar" type="submit">  Guardar </button>
 
        </form>
 
