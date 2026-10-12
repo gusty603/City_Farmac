@@ -9,7 +9,7 @@
             <td>Administrador</td>
             <td>
                 <button>Modificar</button>
-                <button>Inactivar</button>
+                <button id="botInactivar">Inactivar</button>
             </td>
 
         </tr>
@@ -37,7 +37,7 @@
 
         </fieldset>
 
-         <button type="submit">Guardar</button>
+         <button id="botGuardar" type="submit">Guardar</button>
 
     </form>
 
